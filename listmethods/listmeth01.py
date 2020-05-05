@@ -5,11 +5,8 @@ print(proto)
 proto.append("dns")
 protoa.append("dns")
 print(proto)
-proto2 = [ 22, 80, 443, 53 ] # a list of common ports
+proto2 = [22, 80, 443, 53]  # a list of common ports
 proto.extend(proto2)
 print(proto)
 protoa.append(proto2)
 print(protoa)
-new_list = protoa
-print(new_list.index())
-
