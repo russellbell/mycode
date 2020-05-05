@@ -2,7 +2,13 @@
 import datetime
 
 user_name = input("Please enter your name: ")
-day = input("Please enter the day of the week: ")
-today = datetime.date
+# day = input("Please enter the day of the week: ")
 
-print(f"Hello, {user_name}. Happy {today}!" )
+# weekdays as a tuple
+weekDays = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
+current_day = datetime.date.today().weekday()
+currentDayAsString = weekDays[current_day]
+
+
+print(f"Hello, {user_name}. Happy {currentDayAsString}!")
+
