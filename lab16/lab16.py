@@ -10,3 +10,4 @@ if hostname.lower() == "mgt":
     print("hostname matches expected config")
 
 print("Exiting the script.")
+print("We are done")
